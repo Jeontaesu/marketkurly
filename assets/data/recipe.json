@@ -4,7 +4,7 @@
             "id":0,
             "sort":[14],
             "snippet":{
-                "thumbnail":"../assets/images/recipe-img1.jpg",
+                "thumbnail":"https://jeontaesu.github.io/marketkurly/assets/images/recipe-img1.jpg",
                 "title":"유자 참기름 소스와 제철 생선"
             }
         },
@@ -12,7 +12,7 @@
             "id":0,
             "sort":[14],
             "snippet":{
-                "thumbnail":"../assets/images/recipe-img2.jpg",
+                "thumbnail":"https://jeontaesu.github.io/marketkurly/assets/images/recipe-img2.jpg",
                 "title":"참기름 간장 떡볶이"
             }
         },
@@ -20,7 +20,7 @@
             "id":0,
             "sort":[14],
             "snippet":{
-                "thumbnail":"../assets/images/recipe-img3.jpg",
+                "thumbnail":"https://jeontaesu.github.io/marketkurly/assets/images/recipe-img3.jpg",
                 "title":"감홍로 아포가토"
             }
         },
@@ -28,7 +28,7 @@
             "id":0,
             "sort":[14],
             "snippet":{
-                "thumbnail":"../assets/images/recipe-img4.jpg",
+                "thumbnail":"https://jeontaesu.github.io/marketkurly/assets/images/recipe-img4.jpg",
                 "title":"토끼 소주 블랙 칵테일"
             }
         },
@@ -36,7 +36,7 @@
             "id":0,
             "sort":[14],
             "snippet":{
-                "thumbnail":"../assets/images/recipe-img5.jpg",
+                "thumbnail":"https://jeontaesu.github.io/marketkurly/assets/images/recipe-img5.jpg",
                 "title":"토끼 소주 화이트 칵테일"
             }
         }

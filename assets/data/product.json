@@ -21,7 +21,7 @@
             "sort":[3,4,7,11,12],
             "cate":[16,1,2],
             "snippet":{
-                "thumbnail":"../images/product-img2.jpg",
+                "thumbnail":"https://jeontaesu.github.io/marketkurly/assets/images/product-img2.jpg",
                 "title": "[마비스] 치약 85mL 6종 선물세트 (+ 클래식 민트 치약 10ml 3개 증정) (쇼핑백 포함)",
                 "price":{
                     "discount":20,
@@ -37,7 +37,7 @@
             "sort":[1,3,4,5,6,7,10,11,12],
             "cate":[1,2,3],
             "snippet":{
-                "thumbnail":"../assets/images/product-img3.jpg",
+                "thumbnail":"https://jeontaesu.github.io/marketkurly/assets/images/product-img3.jpg",
                 "title": "[압구정주꾸미] 주꾸미 볶음 300g",
                 "price":{
                     "discount":0,
@@ -53,7 +53,7 @@
             "sort":[1,3,4,6,7,11,12],
             "cate":[1,2,3],
             "snippet":{
-                "thumbnail":"../assets/images/product-img4.jpg",
+                "thumbnail":"https://jeontaesu.github.io/marketkurly/assets/images/product-img4.jpg",
                 "title": "[선착순특가][KF365] 당도선별 수박 6kg 이상",
                 "price":{
                     "discount":15,
@@ -69,7 +69,7 @@
             "sort":[3,4,5,6,7,10,11,12],
             "cate":[1,2,3],
             "snippet":{
-                "thumbnail":"../assets/images/product-img5.jpg",
+                "thumbnail":"https://jeontaesu.github.io/marketkurly/assets/images/product-img5.jpg",
                 "title": "[상반기결산] 도시락/샐러드 22종 균일가 골라담기 (택4)",
                 "price":{
                     "discount":37,
@@ -85,7 +85,7 @@
             "sort":[1,3,4,6,7,10,11,12],
             "cate":[1,2,3],
             "snippet":{
-                "thumbnail":"../assets/images/product-img6.jpg",
+                "thumbnail":"https://jeontaesu.github.io/marketkurly/assets/images/product-img6.jpg",
                 "title": "[청산바다 ASC인증] 지속가능한 친환경 전복 (3마리) (개당 70g 내외)",
                 "price":{
                     "discount":35,
@@ -101,7 +101,7 @@
             "sort":[1,3,4,6,10,11,12],
             "cate":[1,2,3,4],
             "snippet":{
-                "thumbnail":"../assets/images/product-img7.jpg",
+                "thumbnail":"https://jeontaesu.github.io/marketkurly/assets/images/product-img7.jpg",
                 "title": "[KF365] 생 등심 돈까스 8입 1kg (냉장)",
                 "price":{
                     "discount":35,
@@ -117,7 +117,7 @@
             "sort":[1,3,4,12],
             "cate":[18],
             "snippet":{
-                "thumbnail":"../assets/images/product-img8.webp",
+                "thumbnail":"https://jeontaesu.github.io/marketkurly/assets/images/product-img8.webp",
                 "title": "LG전자 WHISEN 오브제 컬렉션 제습기 DQ203PECA(20L) 2~3주 배송지연",
                 "price":{
                     "discount":10,
@@ -133,7 +133,7 @@
             "sort":[5,10,12],
             "cate":[9],
             "snippet":{
-                "thumbnail":"../assets/images/product-img9.jpg",
+                "thumbnail":"https://jeontaesu.github.io/marketkurly/assets/images/product-img9.jpg",
                 "title": "[99핫도그] 크리스피 핫도그 800g(80gX10개입) 2종 (택1)",
                 "price":{
                     "discount":20,
@@ -149,7 +149,7 @@
             "sort":[1,5,8,10,12],
             "cate":[6],
             "snippet":{
-                "thumbnail":"../assets/images/product-img10.jpg",
+                "thumbnail":"https://jeontaesu.github.io/marketkurly/assets/images/product-img10.jpg",
                 "title": "[베키아에누보] 스프 3종 (택1)",
                 "price":{
                     "discount":20,
@@ -165,7 +165,7 @@
             "sort":[1,5,8,12],
             "cate":[6],
             "snippet":{
-                "thumbnail":"../assets/images/product-img11.jpg",
+                "thumbnail":"https://jeontaesu.github.io/marketkurly/assets/images/product-img11.jpg",
                 "title": "[탄단지] 닭가슴살 현미 삼각주먹밥 500g 3종 (택1)",
                 "price":{
                     "discount":23,
@@ -181,7 +181,7 @@
             "sort":[1,8,12],
             "cate":[6],
             "snippet":{
-                "thumbnail":"../assets/images/product-img13.jpg",
+                "thumbnail":"https://jeontaesu.github.io/marketkurly/assets/images/product-img13.jpg",
                 "title": "[폰타나] 컵수프 4종",
                 "price":{
                     "discount":20,
@@ -197,7 +197,7 @@
             "sort":[1,8,12],
             "cate":[6],
             "snippet":{
-                "thumbnail":"../assets/images/product-img14.jpg",
+                "thumbnail":"https://jeontaesu.github.io/marketkurly/assets/images/product-img14.jpg",
                 "title": "[양반] 죽 시리즈 7종",
                 "price":{
                     "discount":30,
@@ -213,7 +213,7 @@
             "sort":[1,8,12],
             "cate":[6],
             "snippet":{
-                "thumbnail":"../assets/images/product-img15.jpg",
+                "thumbnail":"https://jeontaesu.github.io/marketkurly/assets/images/product-img15.jpg",
                 "title": "[햇반] 소프트밀 죽 9종",
                 "price":{
                     "discount":26,
@@ -229,7 +229,7 @@
             "sort":[1,8,12],
             "cate":[6],
             "snippet":{
-                "thumbnail":"../assets/images/product-img16.jpg",
+                "thumbnail":"https://jeontaesu.github.io/marketkurly/assets/images/product-img16.jpg",
                 "title": "[다운타우너] 시그니처 핫도그 2종 (택1)",
                 "price":{
                     "discount":20,
@@ -245,7 +245,7 @@
             "sort":[1,8,12],
             "cate":[6],
             "snippet":{
-                "thumbnail":"../assets/images/product-img17.jpg",
+                "thumbnail":"https://jeontaesu.github.io/marketkurly/assets/images/product-img17.jpg",
                 "title": "[스윗밸런스] 오늘의 식단 도시락 6종 (택1)",
                 "price":{
                     "discount":23,
@@ -261,7 +261,7 @@
             "sort":[1,8,12],
             "cate":[18],
             "snippet":{
-                "thumbnail":"../assets/images/product-img18.webp",
+                "thumbnail":"https://jeontaesu.github.io/marketkurly/assets/images/product-img18.webp",
                 "title": "[톰슨] 오븐형 로티세리 올스텐 에어프라이어 18L 대용량",
                 "price":{
                     "discount":50,
@@ -277,7 +277,7 @@
             "sort":[1,8,10,11,12],
             "cate":[2],
             "snippet":{
-                "thumbnail":"../assets/images/product-img19.jpg",
+                "thumbnail":"https://jeontaesu.github.io/marketkurly/assets/images/product-img19.jpg",
                 "title": "[귤로장생] 제주 하우스 감귤 1kg",
                 "price":{
                     "discount":20,
@@ -293,7 +293,7 @@
             "sort":[12,13],
             "cate":[19],
             "snippet":{
-                "thumbnail":"../assets/images/product-img20.jpg",
+                "thumbnail":"https://jeontaesu.github.io/marketkurly/assets/images/product-img20.jpg",
                 "title": "[폴로 랄프로렌] 여성 슬림핏 케이블 반팔 카라넥 니트 핑크 (택1)",
                 "price":{
                     "discount":47,
@@ -309,7 +309,7 @@
             "sort":[12,13],
             "cate":[19],
             "snippet":{
-                "thumbnail":"../assets/images/product-img21.jpg",
+                "thumbnail":"https://jeontaesu.github.io/marketkurly/assets/images/product-img21.jpg",
                 "title": "[폴로 랄프로렌] 여성 슬림핏 케이블 반팔 카라넥 니트 옐로우 (택1)",
                 "price":{
                     "discount":47,
@@ -325,7 +325,7 @@
             "sort":[12,13],
             "cate":[19],
             "snippet":{
-                "thumbnail":"../assets/images/product-img22.jpg",
+                "thumbnail":"https://jeontaesu.github.io/marketkurly/assets/images/product-img22.jpg",
                 "title": "[폴로 랄프로렌] 여성 슬림핏 케이블 반팔 크루넥 포켓 니트 그린 (택1)",
                 "price":{
                     "discount":45,
@@ -341,7 +341,7 @@
             "sort":[12,13],
             "cate":[19],
             "snippet":{
-                "thumbnail":"../assets/images/product-img23.jpg",
+                "thumbnail":"https://jeontaesu.github.io/marketkurly/assets/images/product-img23.jpg",
                 "title": "[폴로 랄프로렌] 여성 슬림핏 케이블 반팔 카라넥 니트 블루 (택1)",
                 "price":{
                     "discount":47,
@@ -357,7 +357,7 @@
             "sort":[12,13],
             "cate":[19],
             "snippet":{
-                "thumbnail":"../assets/images/product-img24.jpg",
+                "thumbnail":"https://jeontaesu.github.io/marketkurly/assets/images/product-img24.jpg",
                 "title": "[폴로 랄프로렌] 여성 슬림핏 케이블 반팔 크루넥 포켓 니트 네이비 (택1)",
                 "price":{
                     "discount":45,
@@ -373,7 +373,7 @@
             "sort":[12,13],
             "cate":[19],
             "snippet":{
-                "thumbnail":"../assets/images/product-img25.jpg",
+                "thumbnail":"https://jeontaesu.github.io/marketkurly/assets/images/product-img25.jpg",
                 "title": "[폴로 랄프로렌] 여성 슬림핏 케이블 반팔 크루넥 포켓 니트 블루 (택1)",
                 "price":{
                     "discount":45,
@@ -389,7 +389,7 @@
             "sort":[12,13],
             "cate":[19],
             "snippet":{
-                "thumbnail":"../assets/images/product-img26.jpg",
+                "thumbnail":"https://jeontaesu.github.io/marketkurly/assets/images/product-img26.jpg",
                 "title": "[폴로 랄프로렌] 여성 슬림핏 케이블 반팔 카라넥 니트 민트 (택1)",
                 "price":{
                     "discount":47,
@@ -405,7 +405,7 @@
             "sort":[12,13],
             "cate":[19],
             "snippet":{
-                "thumbnail":"../assets/images/product-img27.jpg",
+                "thumbnail":"https://jeontaesu.github.io/marketkurly/assets/images/product-img27.jpg",
                 "title": "[폴로 랄프로렌] 여성 슬림핏 케이블 반팔 크루넥 포켓 니트 화이트 (택1)",
                 "price":{
                     "discount":45,

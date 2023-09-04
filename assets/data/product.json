@@ -5,7 +5,7 @@
             "sort":[1,3,7,11,12],
             "cate":[3,2,1],
             "snippet":{
-                "thumbnail":"../images/product-img1.jpg",
+                "thumbnail":"https://jeontaesu.github.io/marketkurly/attets/images/product-img1.jpg",
                 "title": "[르네휘테르] 포티샤 두피&모발강화 샴푸 250ml",
                 "price":{
                     "discount":15,

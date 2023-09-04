@@ -1,0 +1,77 @@
+        // {
+        //     "id":0,
+        //     "sort":1,
+        //     "snippet":{
+        //         "thumbnail":"../assets/images/product-img1-2.jpg",
+        //         "title": "[드시모네] 키즈 스텝1 블루베리향 4박스 (120일분)",
+        //         "price":{
+        //             "discount":30,
+        //             "curr":218400,
+        //             "ori":312000
+        //         },
+        //         "badge":"일일특가",
+        //         "review":62 
+        //     }
+        // },
+        // {
+        //     "id":0,
+        //     "sort":1,
+        //     "snippet":{
+        //         "thumbnail":"../assets/images/product-img1-3.jpg",
+        //         "title": "[티젠] 콤부차 유자 (30개입)",
+        //         "price":{
+        //             "discount":45,
+        //             "curr":10900,
+        //             "ori":19900
+        //         },
+        //         "badge":"일일특가",
+        //         "review":9999 
+        //     }
+        // },
+        // {
+        //     "id":0,
+        //     "sort":1,
+        //     "snippet":{
+        //         "thumbnail":"../assets/images/product-img1-4.jpg",
+        //         "title": "[매일] 바이오 요거트 8개입 (딸기&백도)",
+        //         "price":{
+        //             "discount":10,
+        //             "curr":4490,
+        //             "ori":4990
+        //         },
+        //         "badge":"일일특가",
+        //         "review":9999
+        //     }
+        // },
+        // {
+        //     "id":0,
+        //     "sort":1,
+        //     "snippet":{
+        //         "thumbnail":"../assets/images/product-img1-5.jpg",
+        //         "title": "[HBAF] 와사비맛 아몬드 190g",
+        //         "price":{
+        //             "discount":10,
+        //             "curr":5310,
+        //             "ori":5900
+        //         },
+        //         "badge":"일일특가",
+        //         "review":9999
+        //     }
+        // },
+
+
+{
+            "id":0,
+            "sort":4,
+            "snippet":{
+                "thumbnail":"../assets/images/product-img3.jpg",
+                "title": "[압구정주꾸미] 주꾸미 볶음 300g",
+                "price":{
+                    "discount":23,
+                    "curr":6800,
+                    "ori":8900
+                },
+                "badge":"주말특가",
+                "review":429 
+            }
+        }

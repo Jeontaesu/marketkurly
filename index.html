@@ -1,0 +1,1892 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>컬리 - 마켓컬리/뷰티컬리</title>
+
+    <link rel="shortcut icon" href="./assets/images/favicon.ico">
+    <link rel="stylesheet" href="./assets/css/layout.css">
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+    <script
+    src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./assets/js/common.js"></script>
+    <script src="./assets/js/custom.js"></script>
+</head>
+<body>
+<div id="wrap">
+ <!-- header -->
+    <header class="header">
+        <div class="common-inner">
+            <div class="logo-area">
+                <h1 class="logo">
+                    <a href="">
+                        <span class="blind">로고</span>
+                        <img src="./assets/images/logo.svg" alt="마켓컬리">
+                    </a>
+                </h1>
+                <a href="" class="link-mall on">마켓컬리</a>
+                <a href="" class="link-mall beauty">뷰티컬리</a>
+            </div>
+            <div class="search-area">
+                <form action="" method="get">
+                    <fieldset>
+                        <legend class="blind">검색창</legend>
+                        <input type="text" class="input-txt" 
+                        placeholder="검색어를 입력해주세요">
+
+                        <button class="btn-search">
+                            <span class="blind">검색</span>     
+                        </button>
+                    </fieldset>
+                </form>
+            </div>
+            <div class="util-nav">
+                <a href="" class="link-util members">회원가입</a>
+                <a href="" class="link-util">로그인</a>
+                <div class="cs-wrap">
+                    <a href="" class="link-util">고객센터</a>
+                    <div class="sub-list">
+                        <a href="">공지사항</a>
+                        <a href="">자주하는 질문</a>
+                        <a href="">1:1문의</a>
+                        <a href="">대량주문 문의</a>
+                    </div>
+                </div>
+            </div>
+            <div class="shop-icon">
+                <button class="btn-address">
+                    <span class="blind">배송지등록</span>
+                    <svg>
+                        <g fill="none" fill-rule="evenodd">
+                            <path d="M36 36H0V0h36z"></path>
+                            <g transform="translate(8.7 6)" stroke="#333" stroke-linejoin="round" stroke-width="1.7">
+                            <path d="M9.306 24S0 16.544 0 9.306a9.306 9.306 0 0 1 18.612 0C18.612 16.544 9.306 24 9.306 24z" stroke-linecap="round"></path>
+                            <circle stroke-linecap="square" cx="9.212" cy="9.123" r="2.784"></circle>
+                        </g></g>
+                    </svg>
+                </button>
+                <button class="btn-favorit">  
+                    <span class="blind">찜하기</span>
+                    <svg>
+                        <path d="M28.927 8.893a6.46 6.46 0 0 0-9.139 0l-1.829 1.828-1.827-1.828a6.462 6.462 0 1 0-9.14 9.138L8.82 19.86l8.432 8.434a1 1 0 0 0 1.414 0l8.433-8.434h0l1.828-1.828a6.46 6.46 0 0 0 0-9.138z" stroke="#333" stroke-width="1.7" fill="none" fill-rule="evenodd" stroke-linecap="round"/>
+                    </svg>
+                </button>
+                <button class="btn-cart">
+                    <span class="blind">장바구니</span>
+                    <svg>
+                        <g fill="none" fill-rule="evenodd">
+                            <path d="M36 36H0V0h36z"/>
+                            <g transform="translate(5.164 6.547)" stroke="#333" stroke-linecap="square" stroke-linejoin="round" stroke-width="1.7">
+                                <path d="m25.68 3.66-2.72 11.57H7.37L4.66 3.66z"/>
+                                <circle cx="20.52" cy="20.78" r="2.14"/>
+                                <circle cx="9.81" cy="20.78" r="2.14"/>
+                                <path d="M0 0h3.8l1.76 7.5"/>
+                            </g>
+                        </g>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <nav class="gnb">
+            <div class="common-inner">
+                <div class="gnb-cate">
+                    <div class="cate">
+                        <span class="cate-hamburger">
+                            <svg>
+                                <path d="M0 0h16v1.7H0V0zm0 6.15h16v1.7H0v-1.7zm0 6.15h16V14H0v-1.7z" fill="#333" fill-rule="evenodd"/>
+                            </svg>
+                        </span>
+                        <span class="cate-txt">카테고리</span>
+                        <div class="sub-cate-wrap">
+                            <div class="sub-cate">
+                                <ul class="cate-list">
+                                    <li class="cate-item">
+                                        <a href="" class="cate-link"> 
+                                            <img src="./assets/images/cate-icon01.webp" alt="뷰티컬리페스타">
+                                            <span class="desc">뷰티컬리페스타</span>
+                                        </a>
+                                        <ul class="cate-list2">
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">스킨케어</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">럭셔리뷰티</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">메이크업</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">헤어케어</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">바디케어</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">선케어</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">클렌징</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">뷰티소품</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">구강케어</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">향수·디퓨저</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">이너뷰티</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">식단관리</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">페스타딜</span> 
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="cate-item">
+                                        <a href="" class="cate-link">
+                                            <img src="./assets/images/cate-icon02.webp" alt="채소">
+                                            <span class="desc">채소</span>
+                                        </a>
+                                        <ul class="cate-list2">
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">친환경</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">고구마·감자·당근</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">시금치·쌈채소·나물</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">브로콜리·파프리카·양배추</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">양파·대파·마늘·배추</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">오이·호박·고추</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">냉동·이색·간편채소</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">콩나물·버섯</span> 
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="cate-item">
+                                        <a href="" class="cate-link">
+                                            <img src="./assets/images/cate-icon03.webp" alt="과일·견과·쌀">
+                                            <span class="desc">과일·견과·쌀</span>
+                                        </a>
+                                        <ul class="cate-list2">
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">친환경</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">제철과일</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">국산과일</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">수입과일</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">간편과일</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">냉동·건과일</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">견과류</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">쌀·잡곡</span> 
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="cate-item">
+                                        <a href="" class="cate-link">
+                                            <img src="./assets/images/cate-icon04.webp" alt="수산·해산·건어물">
+                                            <span class="desc">수산·해산·건어물</span>
+                                        </a>
+                                        <ul class="cate-list2">
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">제철수산</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">생선류</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">굴비·반건류</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">오징어·낙지·문어</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">새우·게·랍스터</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">해산물·조개류</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">수산가공품</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">김·미역·해조류</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">건어물·다시팩</span> 
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="cate-item">
+                                        <a href="" class="cate-link">
+                                            <img src="./assets/images/cate-icon05.webp" alt="정육·계란">
+                                            <span class="desc">정육·계란</span>
+                                        </a>
+                                        <ul class="cate-list2">
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">국내산 소고기</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">수입산 소고기</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">돼지고기</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">계란류</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">닭·오리고기</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">양념육·돈까스</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">양고기</span> 
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="cate-item">
+                                        <a href="" class="cate-link">
+                                            <img src="./assets/images/cate-icon06.webp" alt="국·반찬·메인요리">
+                                            <span class="desc">국·반찬·메인요리</span>
+                                        </a>
+                                        <ul class="cate-list2">
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">국·탕·찌개</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">밀키트·메인요리</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">밑반찬</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">김치·젓갈·장류</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">두부·어묵·부침개</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">베이컨·햄·통조림</span> 
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="cate-item">
+                                        <a href="" class="cate-link">
+                                            <img src="./assets/images/cate-icon07.webp" alt="샐러드·간편식">
+                                            <span class="desc">샐러드·간편식</span>
+                                        </a>
+                                        <ul class="cate-list2">
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">샐러드·닭가슴살</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">도시락·밥류</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">파스타·면류</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">떡볶이·튀김·순대</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">피자·핫도그·만두</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">폭립·떡갈비·안주</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">죽·스프·카레</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">선식·시리얼</span> 
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="cate-item">
+                                        <a href="" class="cate-link">
+                                            <img src="./assets/images/cate-icon08.webp" alt="면·양념·오일">
+                                            <span class="desc">면·양념·오일</span>
+                                        </a>
+                                        <ul class="cate-list2">
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">파스타·면류</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">식초·소스·드레싱</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">양념·액젓·장류</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">식용유·참기름·오일</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">소금·설탕·향신료</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">밀가루·가루·믹스</span> 
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="cate-item">
+                                        <a href="" class="cate-link">
+                                            <img src="./assets/images/cate-icon09.webp" alt="생수·음료·우유·커피">
+                                            <span class="desc">생수·음료·우유·커피</span>
+                                        </a>
+                                        <ul class="cate-list2">
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">생수·탄산수</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">음료·주스</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">우유·두유·요거트</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">커피</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">차</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">커피용품</span> 
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="cate-item">
+                                        <a href="" class="cate-link">
+                                            <img src="./assets/images/cate-icon10.webp" alt="간식·과자·떡">
+                                            <span class="desc">간식·과자·떡</span>
+                                        </a>
+                                        <ul class="cate-list2">
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">과자·스낵·쿠키</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">초콜릿·젤리·캔디</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">떡·한과</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">아이스크림</span> 
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="cate-item">
+                                        <a href="" class="cate-link">
+                                            <img src="./assets/images/cate-icon11.webp" alt="베이커리·치즈·델리">
+                                            <span class="desc">베이커리·치즈·델리</span>
+                                        </a>
+                                        <ul class="cate-list2">
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">식빵·빵류</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">잼·버터·스프레드</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">케이크·파이·디저트</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">치즈</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">델리</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">올리브·피클</span> 
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="cate-item">
+                                        <a href="" class="cate-link">
+                                            <img src="./assets/images/cate-icon12.webp" alt="건강식품">
+                                            <span class="desc">건강식품</span>
+                                        </a>
+                                        <ul class="cate-list2">
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">영양제</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">유산균</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">홍삼·인삼·꿀</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">건강즙·건강음료</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">건강분말·건강환</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">다이어트·이너뷰티</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">유아동</span> 
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="cate-item">
+                                        <a href="" class="cate-link">
+                                            <img src="./assets/images/cate-icon13.webp" alt="와인·위스키">
+                                            <span class="desc">와인·위스키</span>
+                                        </a>
+                                        <ul class="cate-list2">
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">레드와인</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">화이트와인</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">샴페인·스파클링</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">위스키</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">리큐르</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">와인·위스키 용품</span> 
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="cate-item">
+                                        <a href="" class="cate-link">
+                                            <img src="./assets/images/cate-icon14.webp" alt="전통주">
+                                            <span class="desc">전통주</span>
+                                        </a>
+                                        <ul class="cate-list2">
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">막걸리·탁주</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">증류주·약주·청주</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">과실주·리큐르</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">전통주 선물세트</span> 
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="cate-item">
+                                        <a href="" class="cate-link">
+                                            <img src="./assets/images/cate-icon15.webp" alt="생활용품·리빙·캠핑">
+                                            <span class="desc">생활용품·리빙·캠핑</span>
+                                        </a>
+                                        <ul class="cate-list2">
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">휴지·티슈</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">여성·위생용품</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">세제·청소용품</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">화훼·인테리어소품</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">의약외품·마스크</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">생활잡화·문구</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">캠핑용품</span> 
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="cate-item">
+                                        <a href="" class="cate-link">
+                                            <img src="./assets/images/cate-icon16.webp" alt="스킨케어·메이크업">
+                                            <span class="desc">스킨케어·메이크업</span>
+                                        </a>
+                                        <ul class="cate-list2">
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">스킨·미스트·패드</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">에센스·앰플·로션</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">크림·오일</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">클렌징</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">마스크팩</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">선케어</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">메이크업</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">맨즈케어</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">뷰피소품·기기</span> 
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="cate-item">
+                                        <a href="" class="cate-link">
+                                            <img src="./assets/images/cate-icon17.webp" alt="헤어·바디·구강">
+                                            <span class="desc">헤어·바디·구강</span>
+                                        </a>
+                                        <ul class="cate-list2">
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">구강·면도</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">샴푸·컨디셔너</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">트리트먼트·팩</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">헤어에센스·염모</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">바디워시·스크럽</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">바디로션·크림</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">핸드·립·데오</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">향수·디퓨저</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">헤어·바디소품</span> 
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="cate-item">
+                                        <a href="" class="cate-link">
+                                            <img src="./assets/images/cate-icon18.webp" alt="주방용품">
+                                            <span class="desc">주방용품</span>
+                                        </a>
+                                        <ul class="cate-list2">
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">주방소모품·잡화</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">주방·조리도구</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">냄비·팬·솥</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">보관용기·텀블러</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">식기·테이블웨어</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">컵·잔·커피도구</span> 
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="cate-item">
+                                        <a href="" class="cate-link">
+                                            <img src="./assets/images/cate-icon19.webp" alt="가전제품">
+                                            <span class="desc">가전제품</span>
+                                        </a>
+                                        <ul class="cate-list2">
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">주방가전</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">생활가전</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">계절가전</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">디지털·PC</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">대형·설치가전</span> 
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="cate-item">
+                                        <a href="" class="cate-link">
+                                            <img src="./assets/images/cate-icon20.webp" alt="반려동물">
+                                            <span class="desc">반려동물</span>
+                                        </a>
+                                        <ul class="cate-list2">
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">강아지 간식</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">강아지 주식</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">고양이 간식</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">고양이 주식</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">건강관리</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">배변·위생</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">장난감</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">미용·외출·하우스</span> 
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="cate-item">
+                                        <a href="" class="cate-link">
+                                            <img src="./assets/images/cate-icon21.webp" alt="베이비·키즈·완구">
+                                            <span class="desc">베이비·키즈·완구</span>
+                                        </a>
+                                        <ul class="cate-list2">
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">분유·간편 이유식</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">이유식 재료</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">간식·음식</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">건강식품</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">이유·수유용품</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">기저귀·물티슈</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">세제·위생용품</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">스킨·구강케어</span> 
+                                                </a>
+                                            </li>
+                                            <li class="cate-item2">
+                                                <a href="" class="cate-link2">
+                                                <span class="desc">완구·잡화류</span> 
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li> 
+                                </ul>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <ul class="gnb-list">
+                    <li class="gnb-item">
+                        <a href="" class="title">신상품</a>
+                    </li>
+                    <li class="gnb-item">
+                        <a href="" class="title">베스트</a>
+                    </li>
+                    <li class="gnb-item">
+                        <a href="" class="title">알뜰쇼핑</a>
+                    </li>
+                    <li class="gnb-item">
+                        <a href="" class="title">특가/혜택</a>
+                    </li>
+                </ul>
+                <a href="" class="link-info"><span>샛별・택배 </span>배송안내</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- container -->
+    <main class="container">
+        <!-- sc-visual -->
+        <section class="sc-visual">
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="">
+                            <img src="./assets/images/main-img01.jpg" alt="메인배너">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                            <img src="./assets/images/main-img02.jpg" alt="메인배너">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                            <img src="assets/images/main-img03.jpg" alt="메인배너">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                            <img src="assets/images/main-img04.jpg" alt="메인배너">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="">
+                            <img src="assets/images/main-img05.jpg" alt="메인배너">
+                        </a>
+                    </div>
+                </div>
+                <button class="btn-nav v-prev"><span class="blind">이전</span></button>
+                <button class="btn-nav v-next"><span class="blind">다음</span></button>
+                <div class="fraction-wrap">
+                    <div class="fraction">99/99</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- sc-product_1 -->
+        <section class="sc-product">
+            <div class="common-inner">
+                <div class="group-title">
+                    <h2 class="title">이 상품 어때요?</h2>
+                </div>
+                <div class="group-product product-list1">
+                    <div class="swiper">
+                        <div class="swiper-wrapper" id="list1">
+                            <!-- .. -->
+                        </div>
+                    </div>
+                    <div class="btn-nav prev-product1"></div>
+                    <div class="btn-nav next-product1 next-common"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- line-banner -->
+        <aside class="line-banner">
+            <div class="common-inner">
+                <a href="">
+                    <img src="./assets/images/line-banner01.jpg" alt="더마 코스메틱 최대 40% 할인">
+                </a>
+            </div>
+        </aside>
+        
+        <!-- sc-special_2 -->
+        <section class="sc-special">
+            <div class="common-inner">
+                <div class="special-time">
+                    <h2 class="title">매일 오전 11시 OPEN !</h2>
+                    <h3 class="sub-title">24시간 한정 일일특가</h3>
+                    <div class="time-wrap">
+                        <div class="lottie-timer">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" width="36" height="36" preserveAspectRatio="xMidYMid meet" style="width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px);">
+                                <defs><clipPath id="__lottie_element_7"><rect width="36" height="36" x="0" y="0"></rect></clipPath></defs><g clip-path="url(#__lottie_element_7)"><g transform="matrix(1,0,0,1,3.75,3.75)" opacity="1" style="display: block;"><g opacity="1" transform="matrix(1,0,0,1,14.25,14.25)"><path fill="rgb(189,118,255)" fill-opacity="1" d=" M14,0 C14,7.73199987411499 7.73199987411499,14 0,14 C-7.73199987411499,14 -14,7.73199987411499 -14,0 C-14,-7.73199987411499 -7.73199987411499,-14 0,-14 C7.73199987411499,-14 14,-7.73199987411499 14,0z"></path></g><g opacity="1" transform="matrix(1,0,0,1,0,0)"><path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" stroke="rgb(255,255,255)" stroke-opacity="1" stroke-width="2" d=" M14.25,8.293999671936035 C14.25,8.293999671936035 14.25,14.293999671936035 14.25,14.293999671936035"></path></g><g class="minute" opacity="1" transform="matrix(1,0,0,1,0,0)"><path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0" stroke="rgb(255,255,255)" stroke-opacity="1" stroke-width="2" d=" M20.25,14.293999671936035 C20.25,14.293999671936035 14.25,14.293999671936035 14.25,14.293999671936035"></path></g></g></g>
+                            </svg>
+                        </div>
+                        <div class="time-unit">
+                            <span>21</span>
+                            <span>16</span>
+                            <span>00</span>
+                        </div>
+                    </div>
+                    <p class="desc">망설이면 늦어요!</p>
+                </div>
+                <div class="special-product">
+                    <ul class="special-list">
+                        <li class="special-item">
+                            <div class="img-wrap">
+                                <a href="">
+                                    <img src="./assets/images/special-img01.jpg" alt="상품이미지">
+                                    <em class="badge">일일특가</em>
+                                </a>
+                                <button class="btn-cart">
+                                    <span class="blind">장바구니</span>
+                                </button>
+                            </div>
+                            <a href="" class="txt-wrap">
+                                <p class="desc">달콤하게 즐기는 보랏빛 과육</p>
+                                <p class="title">냉동 블루베리 1kg (칠레산)</p>
+                                <div class="price-box">
+                                    <div class="wrap">
+                                        <strong class="discount">30%</strong>
+                                        <strong class="curr">7,490원</strong>
+                                    </div>
+                                    <span class="ori">10,800원</span>
+                                </div>
+                                <div class="review">
+                                    <div class="review-icon">
+                                    </div>
+                                    <span>후기 9,999+</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="special-item">
+                            <div class="img-wrap">
+                                <a href="">
+                                    <img src="./assets/images/special-img02.jpg" alt="상품이미지">
+                                    <em class="badge">일일특가</em>
+                                </a>
+                                <button class="btn-cart">
+                                    <span class="blind">장바구니</span>
+                                </button>
+                            </div>
+                            <a href="" class="txt-wrap">
+                                <p class="desc">쓰임새 따라 골라 담는 명란</p>
+                                <p class="title">[맛의명태자] 인기 명란 4종 (택1)</p>
+                                <div class="price-box">
+                                    <div class="wrap">
+                                        <strong class="discount">27%</strong>
+                                        <strong class="curr">5,767원~</strong>
+                                    </div>
+                                    <span class="ori">7,900원</span>
+                                </div>
+                                <div class="review">
+                                    <div class="review-icon">
+                                    </div>
+                                    <span>후기 9,999+</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="special-item">
+                            <div class="img-wrap">
+                                <a href="">
+                                    <img src="./assets/images/special-img03.jpg" alt="상품이미지">
+                                    <em class="badge">일일특가</em>
+                                </a>
+                                <button class="btn-cart">
+                                    <span class="blind">장바구니</span>
+                                </button>
+                            </div>
+                            <a href="" class="txt-wrap">
+                                <p class="desc">풍성한 육즙을 쏙 가둬낸</p>
+                                <p class="title">[조선호텔] 함박스테이크 520g</p>
+                                <div class="price-box">
+                                    <div class="wrap">
+                                        <strong class="discount">28%</strong>
+                                        <strong class="curr">9,288원</strong>
+                                    </div>
+                                    <span class="ori">12,900원</span>
+                                </div>
+                                <div class="review">
+                                    <div class="review-icon">
+                                    </div>
+                                    <span>후기 9,999+</span>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>  
+                </div>
+            </div>
+        </section>
+
+        <!-- sc-product_3 -->
+        <section class="sc-product">
+            <div class="common-inner">
+                <div class="group-title">
+                    <a href="">
+                        <h2 class="title">놓치면 후회할 가격</h2>
+                        <span>
+                            <svg>
+                                <g fill="none" fill-rule="evenodd">
+                                    <path d="M0 0h32v32H0z"/>
+                                    <path d="m10.952 23.384 2.096 2.146 10.055-9.825-9.701-10.278-2.182 2.06 7.677 8.133z" fill="#333" fill-rule="nonzero"/>
+                                </g>
+                            </svg>
+                        </span>
+                    </a>
+                </div>
+                <div class="group-product product-list3">
+                    <div class="swiper">
+                        <div class="swiper-wrapper" id="list3">
+                            <!-- ... -->
+                        </div>
+                    </div>
+                    <div class="btn-nav prev-product3"></div>
+                    <div class="btn-nav next-product3 next-common"></div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- sc-product_4 -->
+        <section class="sc-product">
+            <div class="common-inner">
+                <div class="group-title">
+                    <a href="">
+                        <h2 class="title">신선한 상품 X 합리적 가격</h2>
+                        <span>
+                            <svg>
+                                <g fill="none" fill-rule="evenodd">
+                                    <path d="M0 0h32v32H0z"/>
+                                    <path d="m10.952 23.384 2.096 2.146 10.055-9.825-9.701-10.278-2.182 2.06 7.677 8.133z" fill="#333" fill-rule="nonzero"/>
+                                </g>
+                            </svg>
+                        </span>
+                    </a>
+                </div>
+                <div class="group-product  product-list4">
+                    <div class="swiper">
+                        <div class="swiper-wrapper" id="list4">
+                            <!-- ... -->
+                        </div>
+                    </div>
+                    <div class="btn-nav prev-product4"></div>
+                    <div class="btn-nav next-product4 next-common"></div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- line-banner -->
+        <aside class="line-banner">
+            <div class="common-inner">
+                <a href="">
+                    <img src="./assets/images/line-banner02.jpg" alt="최대 5만원 쿠폰부터 990원 특가까지">
+                </a>
+            </div>
+        </aside>
+        
+        <!-- sc-product_5 -->
+        <section class="sc-product">
+            <div class="common-inner">
+                <div class="group-title">
+                    <a href="">
+                        <h2 class="title">대용량으로 알뜰하게 쇼핑</h2>
+                        <span>
+                            <svg>
+                                <g fill="none" fill-rule="evenodd">
+                                    <path d="M0 0h32v32H0z"/>
+                                    <path d="m10.952 23.384 2.096 2.146 10.055-9.825-9.701-10.278-2.182 2.06 7.677 8.133z" fill="#333" fill-rule="nonzero"/>
+                                </g>
+                            </svg>
+                        </span>
+                    </a>
+                    <p class="desc">알뜰하게 한 번에 사서 쟁여두세요</p>
+                </div>
+                <div class="group-product product-list5">
+                    <div class="swiper">
+                        <div class="swiper-wrapper" id="list5">
+                            <!-- ... -->
+                        </div>
+                    </div>
+                    <div class="btn-nav prev-product5"></div>
+                    <div class="btn-nav next-product5 next-common"></div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- sc-product_6 -->
+        <section class="sc-product">
+            <div class="common-inner">
+                <div class="group-title">
+                    <a href="">
+                        <h2 class="title">홈파티 분위기 내고 싶다면</h2>
+                        <span>
+                            <svg>
+                                <g fill="none" fill-rule="evenodd">
+                                    <path d="M0 0h32v32H0z"/>
+                                    <path d="m10.952 23.384 2.096 2.146 10.055-9.825-9.701-10.278-2.182 2.06 7.677 8.133z" fill="#333" fill-rule="nonzero"/>
+                                </g>
+                            </svg>
+                        </span>
+                    </a>
+                    <p class="desc">에피타이저부터 메인요리까지 모두 모았어요</p>
+                </div>
+                <div class="group-product product-list6">
+                    <div class="swiper">
+                        <div class="swiper-wrapper" id="list6">
+                            <!-- ... -->
+                        </div>
+                    </div>
+                    <div class="btn-nav prev-product6"></div>
+                    <div class="btn-nav next-product6 next-common"></div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- line-banner -->
+        <aside class="line-banner">
+            <div class="common-inner">
+                <a href="">
+                    <img src="./assets/images/line-banner03.jpg" alt="컬리크리에이터를 찾습니다">
+                </a>
+            </div>
+        </aside>
+        
+        <!-- sc-product_7 -->
+        <section class="sc-product">
+            <div class="common-inner">
+                <div class="group-title">
+                    <a href="">
+                        <h2 class="title">지금 가장 핫한 상품</h2>
+                        <span>
+                            <svg>
+                                <g fill="none" fill-rule="evenodd">
+                                    <path d="M0 0h32v32H0z"/>
+                                    <path d="m10.952 23.384 2.096 2.146 10.055-9.825-9.701-10.278-2.182 2.06 7.677 8.133z" fill="#333" fill-rule="nonzero"/>
+                                </g>
+                            </svg>
+                        </span>
+                    </a>
+                </div>
+                <div class="group-product product-list7">
+                    <div class="swiper">
+                        <div class="swiper-wrapper" id="list7">
+                            <!-- ... -->
+                        </div>
+                    </div>
+                    <div class="btn-nav prev-product7"></div>
+                    <div class="btn-nav next-product7 next-common"></div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- sc-product_8 -->
+        <section class="sc-product">
+            <div class="common-inner">
+                <div class="group-title">
+                    <a href="">
+                        <h2 class="title">아침 거르지 마세요!🍙</h2>
+                        <span>
+                            <svg>
+                                <g fill="none" fill-rule="evenodd">
+                                    <path d="M0 0h32v32H0z"/>
+                                    <path d="m10.952 23.384 2.096 2.146 10.055-9.825-9.701-10.278-2.182 2.06 7.677 8.133z" fill="#333" fill-rule="nonzero"/>
+                                </g>
+                            </svg>
+                        </span>
+                    </a>
+                    <p class="desc">요거트 특가부터 샐러드랩까지 최대 20% 할인🌯</p>
+                </div>
+                <div class="group-product product-list8">
+                    <div class="swiper">
+                        <div class="swiper-wrapper" id="list8">
+                            <!-- ... -->
+                        </div>
+                    </div>
+                    <div class="btn-nav prev-product8"></div>
+                    <div class="btn-nav next-product8 next-common"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- product-story -->
+        <article class="product-story">
+            <div class="common-inner">
+                <div class="story-top">
+                    <ul>
+                        <li>
+                            <a href="">
+                                <div class="img-wrap">
+                                    <img src="./assets/images/product-story-img01.jpg" alt>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <h4 class="title">일상을 호캉스로, 더 조선호텔</h4>
+                                <p class="desc">
+                                    특별한 한 해의 시작을 준비하고 있다면, 침실부터 바꿔 보는 건 어때요? 침구의 변화만으로도 좋은 호텔에 들어선 것과 같은 안락함을 느낄 수 있답니다. 컬리가 소개하는 더 조선호텔의 침구는 5성급 호텔의 품격을 고스란히 담았어요.하루의 시작과 마무리를 책임지는 침실의 변화와 함께 더 나은 새해를 맞이하세요 ✨
+                                </p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="story-bottom">
+                    <ul>
+                        <li>
+                            <a href="">
+                                <div class="img-wrap">
+                                    <img src="./assets/images/product-story-img01.jpg" alt>
+                                </div>
+                                <div class="price-wrap">
+                                    <span class="title">[더 조선호텔] 헝가리 사계절 구스다운 3종 (택1)</span>
+                                    <em class="price"><b>874,200</b>원</em>
+                                </div>
+                                <div class="basket">
+                                    <button type="button" class="basket-btn">담기</button>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <div class="img-wrap">
+                                    <img src="./assets/images/product-story-img01.jpg" alt>
+                                </div>
+                                <div class="price-wrap">
+                                    <span class="title">[더 조선호텔] 헝가리 사계절 구스다운 3종 (택1)</span>
+                                    <em class="price"><b>874,200</b>원</em>
+                                </div>
+                                <div class="basket">
+                                    <button type="button" class="basket-btn">담기</button>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <div class="img-wrap">
+                                    <img src="./assets/images/product-story-img01.jpg" alt>
+                                </div>
+                                <div class="price-wrap">
+                                    <span class="title">[더 조선호텔] 헝가리 사계절 구스다운 3종 (택1)</span>
+                                    <em class="price"><b>874,200</b>원</em>
+                                </div>
+                                <div class="basket">
+                                    <button type="button" class="basket-btn">담기</button>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <div class="img-wrap">
+                                    <img src="./assets/images/product-story-img01.jpg" alt>
+                                </div>
+                                <div class="price-wrap">
+                                    <span class="title">[더 조선호텔] 헝가리 사계절 구스다운 3종 (택1)</span>
+                                    <em class="price"><b>874,200</b>원</em>
+                                </div>
+                                <div class="basket">
+                                    <button type="button" class="basket-btn">담기</button>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <a href="" class="more-view">
+                        전체보기
+                        <span>
+                            <img src="./assets/images/more-arrow.svg" alt="전체보기 화살표">
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </article>
+        
+        <!-- line-banner -->
+        <aside class="line-banner">
+            <div class="common-inner">
+                <a href="">
+                    <img src="./assets/images/line-banner04.jpg" alt="최저가 도전! 이제 기저귀는 컬리에서">
+                </a>
+            </div>
+        </aside>
+        
+        <!-- sc-product_10 -->
+        <section class="sc-product">
+            <div class="common-inner">
+                <div class="group-title">
+                    <a href="">
+                        <h2 class="title">1만원대 구매가 많은 인기상품</h2>
+                        <span>
+                            <svg>
+                                <g fill="none" fill-rule="evenodd">
+                                    <path d="M0 0h32v32H0z"/>
+                                    <path d="m10.952 23.384 2.096 2.146 10.055-9.825-9.701-10.278-2.182 2.06 7.677 8.133z" fill="#333" fill-rule="nonzero"/>
+                                </g>
+                            </svg>
+                        </span>
+                    </a>
+                    <p class="desc">최근 2주간 판매량이 가장 많았어요</p>
+                </div>
+                <div class="group-product product-list10">
+                    <div class="swiper">
+                        <div class="swiper-wrapper" id="list10">
+                            <!-- ... -->
+                        </div>
+                    </div>
+                    <div class="btn-nav prev-product10"></div>
+                    <div class="btn-nav next-product10 next-common"></div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- sc-product_11 -->
+        <section class="sc-product">
+            <div class="common-inner">
+                <div class="group-title">
+                    <a href="">
+                        <h2 class="title">판매량이 증명하는 신상품</h2>
+                        <span>
+                            <svg>
+                                <g fill="none" fill-rule="evenodd">
+                                    <path d="M0 0h32v32H0z"/>
+                                    <path d="m10.952 23.384 2.096 2.146 10.055-9.825-9.701-10.278-2.182 2.06 7.677 8.133z" fill="#333" fill-rule="nonzero"/>
+                                </g>
+                            </svg>
+                        </span>
+                    </a>
+                    <p class="desc">54,284명의 고객이 구매했어요</p>
+                </div>
+                <div class="group-product product-list11">
+                    <div class="swiper">
+                        <div class="swiper-wrapper" id="list11">
+                            <!-- ... -->
+                        </div>
+                    </div>
+                    <div class="btn-nav prev-product11"></div>
+                    <div class="btn-nav next-product11 next-common"></div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- md-recomm_12 -->
+        <section class="md-recomm">
+            <div class="common-inner">
+                <div class="group-title">
+                    <h2 class="title">MD의 추천</h2>
+                </div>
+                <ul class="tabnav">
+                    <li><a href="#" data-cate="1">채소</a></li>
+                    <li><a href="#" data-cate="2">과일·견과·쌀</a></li>
+                    <li><a href="#" data-cate="3">수산·해산·건어물</a></li>
+                    <li><a href="#" data-cate="4">정육·계란</a></li>
+                    <li><a href="#" data-cate="5">국·반찬·메인요리</a></li>
+                    <li><a href="#" data-cate="6">샐러드·간편식</a></li>
+                    <li><a href="#" data-cate="7">면·양념·오일</a></li>
+                    <li><a href="#" data-cate="8">생수·음료·우유·커피</a></li>
+                    <li><a href="#" data-cate="9">간식·과자·떡</a></li>
+                    <li><a href="#" data-cate="10">베이커리·치즈·델리</a></li>
+                    <li><a href="#" data-cate="11">건강식품</a></li>
+                    <li><a href="#" data-cate="12">와인</a></li>
+                    <li><a href="#" data-cate="13">전통주</a></li>
+                    <li><a href="#" data-cate="14">생활용품·리빙·캠핑</a></li>
+                    <li><a href="#" data-cate="15">스킨케어·메이크업</a></li>
+                    <li><a href="#" data-cate="16">헤어·바디·구강</a></li>
+                    <li><a href="#" data-cate="17">주방용품</a></li>
+                    <li><a href="#" data-cate="18">가전제품</a></li>
+                    <li><a href="#" data-cate="19">선물하기</a></li>
+                    <li><a href="#" data-cate="20">반려동물</a></li>
+                    <li><a href="#" data-cate="21">베이비·키즈·완구</a></li>
+                    <li><a href="#" data-cate="22">여행·티켓</a></li>
+                </ul>
+                <div class="tabcontent">
+                    <div id="tab01">
+                        <div class="group-product product-list12">
+                            <div class="swiper">
+                                <div class="swiper-wrapper" id="list12">
+                                    <!--  -->
+                                </div>
+                            </div>
+                            <div class="btn-nav prev-product12"></div>
+                            <div class="btn-nav next-product12 next-common"></div>
+                        </div>
+                        <a href="" class="more-view">채소 전체보기
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- sc-product_13 -->
+        <section class="sc-product">
+            <div class="common-inner">
+                <div class="group-title">
+                    <h2 class="title">폴로 랄프로렌 POP UP</h2>
+                    <p class="desc">인기상품 40여종 최대 50% 할인</p>
+                </div>
+                <div class="group-product product-list13">
+                    <div class="swiper">
+                        <div class="swiper-wrapper" id="list13">
+                            <!--  -->
+                        </div>
+                    </div>
+                    <div class="btn-nav prev-product13"></div>
+                    <div class="btn-nav next-product13 next-common"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- sc-recipes -->
+        <section class="sc-recipes">
+            <div class="common-inner">
+                <div class="group-title">
+                    <a href="">
+                    <h2 class="title">컬리의 레시피</h2>
+                        <span>
+                            <svg>
+                                <g fill="none" fill-rule="evenodd">
+                                    <path d="M0 0h32v32H0z"/>
+                                    <path d="m10.952 23.384 2.096 2.146 10.055-9.825-9.701-10.278-2.182 2.06 7.677 8.133z" fill="#333" fill-rule="nonzero"/>
+                                </g>
+                            </svg>
+                        </span>
+                    </a>
+                </div>
+                <div class="group-recipe">
+                    <div class="swiper">
+                        <div class="swiper-wrapper" id="list14">
+                            <!--  -->
+                        </div>                    
+                    </div>
+                    <div class="btn-nav prev-recipe"></div>
+                    <div class="btn-nav next-recipe next-common"></div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- line-banner -->
+        <aside class="line-banner">
+            <div class="common-inner">
+                <a href="">
+                    <img src="./assets/images/line-banner05.jpg" alt="문 앞까지 신선하게, 퀄리티 있게 배송!">
+                </a>
+            </div>
+        </aside>
+        
+        <!-- sc-insta -->
+        <section class="sc-insta">
+            <div class="common-inner">
+                <div class="group-title">
+                    <h2 class="title">인스타그램 고객 후기</h2>
+                    <p class="desc">더 많은 고객 후기가 궁금하다면?</p>
+                </div>
+                <div class="group-insta">
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="">
+                                    <img src="./assets/images/insta-img1.jpg" alt>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="">
+                                    <img src="./assets/images/insta-img2.jpg" alt>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="">
+                                    <img src="./assets/images/insta-img3.jpg" alt>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="">
+                                    <img src="./assets/images/insta-img4.jpg" alt>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="">
+                                    <img src="./assets/images/insta-img5.jpg" alt>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="">
+                                    <img src="./assets/images/insta-img6.jpg" alt>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="">
+                                    <img src="./assets/images/insta-img7.jpg" alt>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="">
+                                    <img src="./assets/images/insta-img8.jpg" alt>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="">
+                                    <img src="./assets/images/insta-img9.jpg" alt>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="">
+                                    <img src="./assets/images/insta-img10.jpg" alt>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="btn-nav prev"></div>
+                    <div class="btn-nav next next-common"></div>
+                </div>
+                <div class="instaReview-area">
+                    <p class="desc">더 많은 고객 후기가 궁금하다면?</p>
+                    <a href="" class="insta-rink">@marketkurly_regram</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- footer -->
+    <footer class="footer">
+        <div class="common-inner">
+            <div class="foot-top">
+                <div class="foot-left">
+                    <h3 class="title">고객행복센터</h3>
+                    <div class="num">
+                        <strong>1644-1107</strong><span>월~토요일 오전 7시 - 오후 6시</span>
+                    </div>
+                    <div class="foot-info">
+                        <ul>
+                            <li class="foot-info-list">
+                                <div class="inquiry"><a href="">카카오톡 문의</a></div>
+                                <div class="info-time">
+                                    <p>
+                                        <em>월~토요일</em>
+                                        <span>오전 7시 - 오후 6시</span>
+                                    </p>
+                                    <p>
+                                        <em>일/공휴일</em>
+                                        <span>오전 7시 - 오후 1시</span>
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="foot-info-list">
+                                <div class="inquiry"><a href="">1:1 문의</a></div>
+                                <div class="info-time">
+                                    <p>
+                                        365일
+                                    </p>
+                                    <p>
+                                        고객센터 운영시간에 순차적으로 답변드리겠습니다.
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="foot-info-list">
+                                <div class="inquiry"><a href="">대량주문 문의</a></div>
+                                <div class="info-time">
+                                    <p>
+                                        <em>월~금요일</em>
+                                        <span>오전 9시 - 오후 6시</span>
+                                    </p>
+                                    <p>
+                                        <em>점심시간</em>
+                                        <span>오전 12시 - 오후 1시</span>
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="email-inquiry">
+                            비회원 문의 :<a href="mailto:help@kurlycorp.com">help@kurlycorp.com</a><br>
+                            비회원 대량주문 문의 :<a href="mailto:kurlygift@kurlycorp.com">kurlygift@kurlycorp.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="foot-right">
+                    <nav class="foot-nav">
+                        <ul class="nav-list">
+                            <li class="nav-item"><a href="">컬리소개</a></li>
+                            <li class="nav-item"><a href="">컬리소개영상</a></li>
+                            <li class="nav-item"><a href="">투자정보</a></li>
+                            <li class="nav-item"><a href="">인재채용</a></li>
+                            <li class="nav-item"><a href="">이용약관</a></li>
+                            <li class="nav-item"><a href="">개인정보처리방침</a></li>
+                            <li class="nav-item"><a href="">이용안내</a></li>
+                        </ul>
+                    </nav>
+                    <div class="foot-address">
+                        <address>
+                            법인명 (상호) : 주식회사 컬리<span class="bar"></span>
+                            사업자등록번호 : 261-81-23567 <a href="">사업자정보 확인</a><br>
+                            통신판매업 : 제 2018-서울강남-01646 호<span class="bar"></span>개인정보보호책임자 : 이원준 <br>주소 : 서울특별시 강남구 테헤란로 133, 18층(역삼동)<span class="bar"></span>
+                            대표이사 : 김슬아<br> 입점문의 : <a href="">입점문의하기</a><span class="bar"></span>
+                            제휴문의 : <a href="">business@kurlycorp.com</a><br>
+                            채용문의 : <a href="">recruit@kurlycorp.com</a><br>
+                            팩스 : 070 - 7500 - 6098    
+                        </address>
+                    </div>
+                    <div class="foot-sns">
+                        <a href="https://www.instagram.com/marketkurly/" target="_blank"><img src="./assets/images/ico_instagram.webp" alt="인스타그램"></a>
+                        <a href="https://www.facebook.com/Marketkurly/" target="_blank"><img src="./assets/images/ico_fb.webp" alt="페이스북"></a>
+                        <a href="https://blog.naver.com/marketkurly" target="_blank"><img src="./assets/images/ico_blog.webp" alt="네이버블로그"></a>
+                        <a href="https://m.post.naver.com/marketkurly" target="_blank"><img src="./assets/images/ico_naverpost.webp" alt="컬리 네이버포스트"></a>
+                        <a href="https://www.youtube.com/channel/UCfpdjL5pl-1qKT7Xp4UQzQg" target="_blank"><img src="./assets/images/ico_youtube.webp" alt="유튜브"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="foot-btm">
+                <ul class="confirm-wrap">
+                    <li class="confirm-item">
+                        <a href="">
+                            <span class="logo"><img src="./assets/images/logo_isms.svg" alt="ISMS 인증마크"></span>
+                            <p class="desc">
+                                [인증범위] 컬리 쇼핑몰 서비스 개발·운영<br>
+                                (심사받지 않은 물리적 인프라 제외)<br>
+                                [유효기간] 2022.01.19 ~ 2025.01.18
+                            </p>
+                        </a>
+                    </li>
+                    <li class="confirm-item">
+                        <a href="">
+                            <span class="logo"><img src="./assets/images/logo_privacy.svg" alt="개인정보보호 우수 웹사이트 마크"></span>
+                            <p class="desc">
+                                개인정보보호 우수 웹사이트 ·<br>
+                                개인정보처리시스템 인증 (ePRIVACY PLUS)
+                            </p>
+                        </a>
+                    </li>
+                    <li class="confirm-item">
+                        <a href="">
+                            <span class="logo"><img src="./assets/images/logo_tosspay.svg" alt="토스페이먼츠 로고"></span>
+                            <p class="desc">
+                                토스페이먼츠 구매안전(에스크로)<br>
+                                서비스를 이용하실 수 있습니다.
+                            </p>
+                        </a>
+                    </li>
+                    <li class="confirm-item">
+                        <a href="">
+                            <span class="logo"><img src="./assets/images/logo_wooriBank.svg" alt="우리은행 로고"></span>
+                            <p class="desc">
+                                고객님이 현금으로 결제한 금액에 대해 우리은행과<br>
+                                채무지급보증 계약을 체결하여 안전거래를 보장하고<br>
+                                있습니다.
+                            </p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="foot-copy">
+            컬리에서 판매되는 상품 중에는 컬리에 입점한 개별 판매자가 판매하는 마켓플레이스(오픈마켓) 상품이 포함되어 있습니다.<br>
+            마켓플레이스(오픈마켓) 상품의 경우 컬리는 통신판매중개자로서 통신판매의 당사자가 아닙니다. 컬리는 해당 상품의 주문, 품질, 교환/환불 등 의무와 책임을 부담하지 않습니다.
+            <address class="copy-right">© KURLY CORP. ALL RIGHTS RESERVED</ㅁ>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
